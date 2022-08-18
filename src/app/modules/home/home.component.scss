@@ -25,24 +25,24 @@
   justify-content: center;
   flex-direction: column;
   height: 100%;
-  width: 500px;
-  margin: 20px auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .text__header {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 700;
   margin-bottom: 15px;
 }
 
 .text__subheader {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
 .text__paragraph {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 100;
   margin-bottom: 20px;
   line-height: 20px;
@@ -71,14 +71,6 @@
   bottom: 0;
   transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
   background-color: #bee3f8;
-}
-
-hr {
-  height: 1px;
-  width: 100%;
-  background-color: rgb(240, 240, 240);
-  border: none;
-  margin-bottom: 20px;
 }
 
 .footer-nav {

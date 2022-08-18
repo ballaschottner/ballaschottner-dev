@@ -1,0 +1,37 @@
+<div class="navbar">
+  <div class="navbar__brand">
+    <h1 class="brand__title">
+      <a routerLink="/" alt="back to maine page">BALLASCHOTTNER</a>
+    </h1>
+  </div>
+  <ul class="navbar__items">
+    <li class="navbar__item">
+      <a
+        class="navbar__link"
+        routerLink="/about-me"
+        routerLinkActive="navbar__link--active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >More about me</a
+      >
+    </li>
+    <li class="navbar__item">
+      <a
+        class="navbar__link"
+        routerLink="/work"
+        routerLinkActive="navbar__link--active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Some of my work</a
+      >
+    </li>
+    <li class="navbar__item">
+      <a
+        class="navbar__link"
+        routerLink="/contact"
+        routerLinkActive="navbar__link--active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Get in touch</a
+      >
+    </li>
+  </ul>
+</div>
+<hr />

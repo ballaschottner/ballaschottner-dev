@@ -5,9 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutMeComponent } from './modules/about-me/about-me.component';
 import { HomeComponent } from './modules/home/home.component';
+import { HeaderComponent } from './modules/core/header/header.component';
+import { FooterComponent } from './modules/core/footer/footer.component';
+import { WorkComponent } from './modules/work/work.component';
+import { ContactComponent } from './modules/contact/contact.component';
 
 @NgModule({
-  declarations: [AppComponent, AboutMeComponent, HomeComponent],
+  declarations: [AppComponent, AboutMeComponent, HomeComponent, HeaderComponent, FooterComponent, WorkComponent, ContactComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
