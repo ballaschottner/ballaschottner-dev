@@ -1,0 +1,29 @@
+[  
+    {    
+        "id": 1,
+        "title": "Work 1",
+        "link": "work-1",
+        "details": {
+            "subtitle": "This is a subtitle",
+            "work_description": "This is a work description"
+        }
+    },
+    {    
+        "id": 2,
+        "title": "Work 2",
+        "link": "work-2",
+        "details": {
+            "subtitle": "This is a subtitle",
+            "work_description": "This is a work description"
+        }
+    },
+    {    
+        "id": 3,
+        "title": "Work 3",
+        "link": "work-3",
+        "details": {
+            "subtitle": "This is a subtitle",
+            "work_description": "This is a work description"
+        }
+    }
+]

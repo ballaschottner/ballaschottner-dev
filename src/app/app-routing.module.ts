@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'about-me', component: AboutMeComponent },
   { path: 'work', component: WorkComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'work/:id', component: WorkComponent }
 ];
 
 @NgModule({

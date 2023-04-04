@@ -1,5 +1,10 @@
 <div class="about-me">
   <app-header></app-header>
   <div class="about-me__content"><p>This is the content</p></div>
+  <h1>Data List</h1>
+    <ul>
+      <li *ngFor="let item of data">{{ item.title }} - <a href="work/{{ item.id }}">{{item.link}}</a></li>
+    </ul>
+    {{data | json}}
   <app-footer></app-footer>
 </div>
